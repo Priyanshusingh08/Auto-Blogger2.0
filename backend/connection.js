@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 
 const url =
-  "mongodb+srv://Wind:12345@cluster0.qrdcs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+  "mongodb+srv://Wind:12345@cluster0.qrdcs.mongodb.net/autoblogger?retryWrites=true&w=majority";
 
 mongoose
   .connect(url)
