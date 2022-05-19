@@ -32,17 +32,17 @@ const pages = [
 const guestUser = [
   {
     name: "Home",
-    link: "/home",
+    link: "/main/home",
     icon: <Home />,
   },
   {
     name: "Login",
-    link: "/login",
+    link: "/main/login",
     icon: <Login />,
   },
   {
     name: "Signup",
-    link: "/signup",
+    link: "/main/signup",
     icon: <AppRegistration />,
   },
 ];
